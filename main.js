@@ -136,7 +136,7 @@ function frameArea(sizeToFitOnScreen, boxSize, boxCenter, camera) {
   const dracoLoader = new DRACOLoader();
   const gltfLoader = new GLTFLoader();
   gltfLoader.setDRACOLoader(dracoLoader);
-  gltfLoader.load('./img/threejs/logocomplete.gltf', (gltf) => {
+  gltfLoader.load('/threejs/logocomplete.gltf', (gltf) => {
       const root = gltf.scene;
       let mesh = [];
       let meshCount = 0;
