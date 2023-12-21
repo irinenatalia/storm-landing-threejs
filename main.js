@@ -78,12 +78,12 @@ camera.position.set(0, 0, 0);
 
 const loader = new THREE.CubeTextureLoader();
 const envTexture = new THREE.CubeTextureLoader().load([
-  './img/threejs/texture_01.jpg',
-  './img/threejs/texture_02.jpg',
-  './img/threejs/texture_03.jpg',
-  './img/threejs/texture_04.jpg',
-  './img/threejs/texture_05.jpg',
-  './img/threejs/texture_06.jpg',
+  '/threejs/texture_01.jpg',
+  '/threejs/texture_02.jpg',
+  '/threejs/texture_03.jpg',
+  '/threejs/texture_04.jpg',
+  '/threejs/texture_05.jpg',
+  '/threejs/texture_06.jpg',
 ])
 envTexture.mapping = THREE.CubeReflectionMapping;
   
